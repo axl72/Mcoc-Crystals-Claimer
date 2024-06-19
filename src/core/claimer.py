@@ -7,6 +7,13 @@ from selenium.webdriver.chrome.service import Service
 from selenium.common.exceptions import NoSuchElementException
 import locale
 import time
+import logging
+
+logging.basicConfig(
+    level=logging.DEBUG, format="%(asctime)s - %(name)s - %(levelname)s - %(message)s"
+)
+
+logger = logging.getLogger(__name__)
 
 
 def create_options() -> Options:
@@ -117,9 +124,7 @@ class Claimer:
                 "arguments[0].scrollIntoView();", weekly_webstore_button
             )
             weekly_webstore_button.click()
-            time.sleep(5)
         except:
             pass
-
-        input()
+        logger("Process fineshed successfuly")
         driver.quit()
