@@ -1,0 +1,136 @@
+2024-08-05 10:59:33,872 - core.claimer - INFO - Cambiamos de ventanas
+2024-08-05 10:59:34,893 - core.claimer - INFO - Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=127.0.6533.89)
+Stacktrace:
+	GetHandleVerifier [0x00007FF6A9DB9632+30946]
+	(No symbol) [0x00007FF6A9D6E3C9]
+	(No symbol) [0x00007FF6A9C66FDA]
+	(No symbol) [0x00007FF6A9C3CB85]
+	(No symbol) [0x00007FF6A9CE37A7]
+	(No symbol) [0x00007FF6A9CFA771]
+	(No symbol) [0x00007FF6A9CDC813]
+	(No symbol) [0x00007FF6A9CAA6E5]
+	(No symbol) [0x00007FF6A9CAB021]
+	GetHandleVerifier [0x00007FF6A9EEF83D+1301229]
+	GetHandleVerifier [0x00007FF6A9EFBDB7+1351783]
+	GetHandleVerifier [0x00007FF6A9EF2A03+1313971]
+	GetHandleVerifier [0x00007FF6A9DEDD06+245686]
+	(No symbol) [0x00007FF6A9D7758F]
+	(No symbol) [0x00007FF6A9D73804]
+	(No symbol) [0x00007FF6A9D73992]
+	(No symbol) [0x00007FF6A9D6A3EF]
+	BaseThreadInitThunk [0x00007FFAA7737374+20]
+	RtlUserThreadStart [0x00007FFAA8AFCC91+33]
+
+2024-08-05 10:59:34,894 - core.claimer - INFO - Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=127.0.6533.89)
+Stacktrace:
+	GetHandleVerifier [0x00007FF6A9DB9632+30946]
+	(No symbol) [0x00007FF6A9D6E3C9]
+	(No symbol) [0x00007FF6A9C66FDA]
+	(No symbol) [0x00007FF6A9C3CB85]
+	(No symbol) [0x00007FF6A9CE37A7]
+	(No symbol) [0x00007FF6A9CFA771]
+	(No symbol) [0x00007FF6A9CDC813]
+	(No symbol) [0x00007FF6A9CAA6E5]
+	(No symbol) [0x00007FF6A9CAB021]
+	GetHandleVerifier [0x00007FF6A9EEF83D+1301229]
+	GetHandleVerifier [0x00007FF6A9EFBDB7+1351783]
+	GetHandleVerifier [0x00007FF6A9EF2A03+1313971]
+	GetHandleVerifier [0x00007FF6A9DEDD06+245686]
+	(No symbol) [0x00007FF6A9D7758F]
+	(No symbol) [0x00007FF6A9D73804]
+	(No symbol) [0x00007FF6A9D73992]
+	(No symbol) [0x00007FF6A9D6A3EF]
+	BaseThreadInitThunk [0x00007FFAA7737374+20]
+	RtlUserThreadStart [0x00007FFAA8AFCC91+33]
+
+2024-08-05 10:59:34,894 - core.claimer - INFO - Process fineshed successfuly
+2024-08-05 11:00:08,261 - core.claimer - INFO - Cambiamos de ventanas
+2024-08-05 11:00:13,074 - core.claimer - INFO - Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=127.0.6533.89)
+Stacktrace:
+	GetHandleVerifier [0x00007FF6A9DB9632+30946]
+	(No symbol) [0x00007FF6A9D6E3C9]
+	(No symbol) [0x00007FF6A9C66FDA]
+	(No symbol) [0x00007FF6A9C3CB85]
+	(No symbol) [0x00007FF6A9CE37A7]
+	(No symbol) [0x00007FF6A9CFA771]
+	(No symbol) [0x00007FF6A9CDC813]
+	(No symbol) [0x00007FF6A9CAA6E5]
+	(No symbol) [0x00007FF6A9CAB021]
+	GetHandleVerifier [0x00007FF6A9EEF83D+1301229]
+	GetHandleVerifier [0x00007FF6A9EFBDB7+1351783]
+	GetHandleVerifier [0x00007FF6A9EF2A03+1313971]
+	GetHandleVerifier [0x00007FF6A9DEDD06+245686]
+	(No symbol) [0x00007FF6A9D7758F]
+	(No symbol) [0x00007FF6A9D73804]
+	(No symbol) [0x00007FF6A9D73992]
+	(No symbol) [0x00007FF6A9D6A3EF]
+	BaseThreadInitThunk [0x00007FFAA7737374+20]
+	RtlUserThreadStart [0x00007FFAA8AFCC91+33]
+
+2024-08-05 11:00:13,074 - core.claimer - INFO - Process fineshed successfuly
+2024-08-05 11:00:54,993 - core.claimer - INFO - Cambiamos de ventanas
+2024-08-05 11:00:55,078 - core.claimer - INFO - Escrolleamos hasta abajo
+2024-08-05 11:00:55,129 - core.claimer - INFO - Hicimos click en el boton semanal
+2024-08-05 11:00:55,130 - core.claimer - INFO - Process fineshed successfuly
+2024-08-05 11:03:28,212 - core.claimer - INFO - Cambiamos de ventanas
+2024-08-05 11:03:28,290 - core.claimer - INFO - Escrolleamos hasta abajo
+2024-08-05 11:03:29,370 - core.claimer - INFO - Message: element click intercepted: Element <button id="store-buy-button-6584994c6e497a772a787de4-0-com.kabam.marvel.weeklyweb.xs.free.000" data-testid="free-button" class="button button--min-width new-store-card__buy-button new-store-card__buy-button--vertical-layout xds-text-button-sm button--large--on-desktop xds-text-button-md xds-text-button-sm xds-text-button-sm xds-text-button-sm" data-sku="com.kabam.marvel.weeklyweb.xs.free.000" data-button-type="free">...</button> is not clickable at point (810, 20). Other element would receive the click: <h4 class="card-text__name card-text__name--vertical-layout">...</h4>
+  (Session info: chrome=127.0.6533.89)
+Stacktrace:
+	GetHandleVerifier [0x00007FF6A9DB9632+30946]
+	(No symbol) [0x00007FF6A9D6E3C9]
+	(No symbol) [0x00007FF6A9C66FDA]
+	(No symbol) [0x00007FF6A9CBFEEE]
+	(No symbol) [0x00007FF6A9CBD962]
+	(No symbol) [0x00007FF6A9CBAE7B]
+	(No symbol) [0x00007FF6A9CBA095]
+	(No symbol) [0x00007FF6A9CAC271]
+	(No symbol) [0x00007FF6A9CDCA6A]
+	(No symbol) [0x00007FF6A9CABBB6]
+	(No symbol) [0x00007FF6A9CDCC80]
+	(No symbol) [0x00007FF6A9CFB041]
+	(No symbol) [0x00007FF6A9CDC813]
+	(No symbol) [0x00007FF6A9CAA6E5]
+	(No symbol) [0x00007FF6A9CAB021]
+	GetHandleVerifier [0x00007FF6A9EEF83D+1301229]
+	GetHandleVerifier [0x00007FF6A9EFBDB7+1351783]
+	GetHandleVerifier [0x00007FF6A9EF2A03+1313971]
+	GetHandleVerifier [0x00007FF6A9DEDD06+245686]
+	(No symbol) [0x00007FF6A9D7758F]
+	(No symbol) [0x00007FF6A9D73804]
+	(No symbol) [0x00007FF6A9D73992]
+	(No symbol) [0x00007FF6A9D6A3EF]
+	BaseThreadInitThunk [0x00007FFAA7737374+20]
+	RtlUserThreadStart [0x00007FFAA8AFCC91+33]
+
+2024-08-05 11:03:29,371 - core.claimer - INFO - Process fineshed successfuly
+2024-08-05 11:04:29,050 - core.claimer - INFO - Cambiamos de ventanas
+2024-08-05 11:05:16,736 - core.claimer - INFO - Escrolleamos hasta abajo
+2024-08-05 11:05:16,791 - core.claimer - INFO - Hicimos click en el boton semanal
+2024-08-05 11:05:16,791 - core.claimer - INFO - Process fineshed successfuly
+2024-08-05 11:05:52,446 - core.claimer - INFO - Cambiamos de ventanas
+2024-08-05 11:05:52,583 - core.claimer - INFO - Aceptamos cockies
+2024-08-05 11:05:52,604 - core.claimer - INFO - Escrolleamos hasta abajo
+2024-08-05 11:05:52,656 - core.claimer - INFO - Hicimos click en el boton semanal
+2024-08-05 11:05:52,656 - core.claimer - INFO - Process fineshed successfuly
+2024-08-05 11:07:35,738 - core.claimer - INFO - Cambiamos de ventanas
+2024-08-05 11:07:35,806 - core.claimer - INFO - Aceptamos cockies
+2024-08-05 11:07:43,046 - core.claimer - INFO - Escrolleamos hasta abajo
+2024-08-05 11:07:43,098 - core.claimer - INFO - Hicimos click en el boton semanal
+2024-08-05 11:07:43,098 - core.claimer - INFO - Process fineshed successfuly
+2024-08-05 11:08:19,078 - core.claimer - INFO - Cambiamos de ventanas
+2024-08-05 11:08:19,147 - core.claimer - INFO - Aceptamos cockies
+2024-08-05 11:08:30,522 - core.claimer - INFO - Escrolleamos hasta abajo
+2024-08-05 11:08:30,568 - core.claimer - INFO - Hicimos click en el boton semanal
+2024-08-05 11:08:30,568 - core.claimer - INFO - Process fineshed successfuly
+2024-08-05 11:09:05,800 - core.claimer - INFO - Cambiamos de ventanas
+2024-08-05 11:09:05,968 - core.claimer - INFO - Aceptamos cockies
+2024-08-05 11:09:08,999 - core.claimer - INFO - Escrolleamos hasta abajo
+2024-08-05 11:09:09,046 - core.claimer - INFO - Hicimos click en el boton semanal
+2024-08-05 11:09:12,047 - core.claimer - INFO - Process fineshed successfuly

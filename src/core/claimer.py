@@ -10,7 +10,8 @@ import time
 import logging
 
 logging.basicConfig(
-    level=logging.DEBUG, format="%(asctime)s - %(name)s - %(levelname)s - %(message)s"
+    filename='mcoc.log',
+    level=logging.INFO, format="%(asctime)s - %(name)s - %(levelname)s - %(message)s"
 )
 
 logger = logging.getLogger(__name__)
@@ -89,32 +90,46 @@ class Claimer:
 
         submit_button = find_element((By.ID, "submit-button"))
         submit_button.click()
-
-        input()
+        time.sleep(5)
         driver.switch_to.window(driver.window_handles[0])
 
-        # input()
+        # time.sleep(5)
+        # driver.switch_to.window(driver.window_handles[-1])
+        # time.sleep(5)
+        # driver.switch_to.window(driver.window_handles[0])
+        # time.sleep(5)
+        # driver.switch_to.window(driver.window_handles[-1])
+        
+        logger.info('Cambiamos de ventanas')
         # acept_button = find_element((By.CLASS_NAME, "primary-social_button"))
         # acept_button.click()
-
-        daily_crystal_button = WebDriverWait(driver, 50).until(
-            EC.presence_of_element_located(
-                (
-                    By.ID,
-                    "store-buy-button-6584994c6e497a772a787de4-0-com.kabam.marvel.dailyval.xs.free.000",
-                )
-            ),
-        )
         try:
-            driver.execute_script(
-                "arguments[0].scrollIntoView();", daily_crystal_button
+            daily_crystal_button = WebDriverWait(driver, 10).until(
+                EC.presence_of_element_located(
+                    (
+                        By.ID,
+                        "store-buy-button-6584994c6e497a772a787de4-0-com.kabam.marvel.dailyval.xs.free.000",
+                    )
+                ),
             )
-            daily_crystal_button.click()
-            driver.find_element(By.ID, "free-item-modal")
         except Exception as e:
-            print(e)
-
+            logger.info(e)
+        # try:
+        #     driver.execute_script(
+        #         "arguments[0].scrollIntoView();", daily_crystal_button
+        #     )
+        #     daily_crystal_button.click()
+        #     driver.find_element(By.XPATH, "//button[text()='Get free']")
+        # except Exception as e:
+        #     logger.print_error(e)
         try:
+            cockies_button = driver.find_element(
+                By.ID, "submit-button"
+            )
+            cockies_button.click()
+            print(cockies_button)
+            print("Aceptamos cockies")
+            logger.info('Aceptamos cockies')
             weekly_webstore_button = driver.find_element(
                 By.ID,
                 "store-buy-button-6584994c6e497a772a787de4-0-com.kabam.marvel.weeklyweb.xs.free.000",
@@ -123,8 +138,13 @@ class Claimer:
             driver.execute_script(
                 "arguments[0].scrollIntoView();", weekly_webstore_button
             )
+            time.sleep(3)
+            logger.info('Escrolleamos hasta abajo')
             weekly_webstore_button.click()
-        except:
-            pass
-        logger("Process fineshed successfuly")
+            logger.info('Hicimos click en el boton semanal')
+
+            time.sleep(3)
+        except Exception as e:
+            logger.info(e)
+        logger.info("Process fineshed successfuly")
         driver.quit()
